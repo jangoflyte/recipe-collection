@@ -70,8 +70,8 @@ class App extends React.Component {
         {this.state.recipes.length > 0 ? (
           <ul>
             <li>{this.state.recipes[0].name}</li>
-            {/* {this.state.recipes.map((recipes) => {
-              <li>{this.state.recipes.name}</li>
+            {/* {this.state.recipes.map((item) => {
+              <li>{this.state.recipes[item].name}</li>
             })} */}
           </ul>
         ) : (
